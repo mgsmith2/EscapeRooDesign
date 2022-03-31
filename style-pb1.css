@@ -1,0 +1,29 @@
+* {
+  text-align: center;
+  background-color: #000E66;
+  font-family: oswald;
+}
+
+input{
+  font-size:200%;
+  border:2px solid black;
+  margin: 5px;
+  padding: 5px 5px;
+}
+
+button{
+  font-size:200%;
+  border:2px solid black;
+  margin: 5px;
+  padding: 5px 5px;
+}
+
+p{
+  font-size:400%;
+  color:#DACC98;
+}
+
+img{
+  width: 32rem;
+  height: 24rem;
+}
