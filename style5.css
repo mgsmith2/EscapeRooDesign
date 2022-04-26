@@ -1,0 +1,20 @@
+* {
+  text-align: center;
+  background-color: #336378;
+  font-family: oswald;
+}
+
+h2 {
+  border:2px dotted #334476; 
+  padding: 10px; 
+  margin: 10px 100px; 
+  color:rgb(92, 165, 173);
+    color: #DAC889;
+  font-size: 35px;
+  text-shadow: 2px 2px 5px;
+}
+
+p {
+  color: #DACC98;
+  font-size: 21px;
+}
