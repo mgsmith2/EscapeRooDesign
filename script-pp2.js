@@ -1,5 +1,5 @@
 window.pass = 1890;
-window.redirectURL = 'https://codepen.io/mgsmith2/puzzle3';
+window.redirectURL = 'https://mgsmith2.github.io/EscapeRooDesign/puzzle3';
 
 
 $(document).ready(function() {
