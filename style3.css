@@ -1,0 +1,63 @@
+* {
+  text-align: center;
+  font-family: oswald;
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background: #336378;
+}
+
+h1 {
+  border: 5px dotted #334476;
+  padding: 10px;
+  margin: 20px 20px;
+  color: #5ca5ad;
+  color: #DAC889;
+  font-size: 30px;
+  text-shadow: 2px 2px 5px;
+}
+
+p {
+  color: #DACC98;
+}
+
+a {
+  color: #DACC98;
+  text-size: 20px;
+}
+
+.text {
+  float: left;
+  width: 40%;
+  padding: 10px;
+}
+
+.puzzle {
+  display: flex;
+  --puzzle-width: 32rem;
+  --puzzle-height: 24rem;
+  --puzzle-row: 3;
+  --puzzle-col: 4;
+  --puzzle-gap: 1px;
+  --puzzle-frag-width: calc(var(--puzzle-width) / var(--puzzle-col));
+  --puzzle-frag-height: calc(var(--puzzle-height) / var(--puzzle-row));
+  --puzzle-img: url(https://cdn.pixabay.com/photo/2013/01/05/20/19/vincent-van-gogh-74018_1280.jpg);
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(var(--puzzle-width) + calc(var(--puzzle-col) * var(--puzzle-gap) * 2));
+  height: calc(var(--puzzle-height) + calc(var(--puzzle-row) * var(--puzzle-gap) * 2));
+}
+.puzzle .fragment {
+  --x-offset: calc(var(--x) * var(--puzzle-frag-width) * -1);
+  --y-offset: calc(var(--y) * var(--puzzle-frag-height) * -1);
+  width: var(--puzzle-frag-width);
+  height: var(--puzzle-frag-height);
+  order: var(--order);
+  margin: var(--puzzle-gap);
+  background: var(--puzzle-img) var(--x-offset) var(--y-offset)/var(--puzzle-width) var(--puzzle-height) no-repeat;
+  border-radius: 10px;
+}
