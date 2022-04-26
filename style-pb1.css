@@ -1,0 +1,46 @@
+* {
+  text-align: center;
+  background-color: #DACC98;
+  font-family: oswald;
+}
+
+input{
+  font-size:200%;
+  border:2px solid black;
+  margin: 5px;
+  padding: 5px 5px;
+}
+
+button{
+  font-size:200%;
+  border:2px solid black;
+  margin: 5px;
+  padding: 5px 5px;
+}
+
+p{
+  font-size:400%;
+  color:black;
+}
+
+img{
+  width: 32rem;
+  height: 24rem;
+}
+
+.left {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  margin-left: 10%;
+  margin-right:;
+}
+
+.right::after {
+  content: "";
+  clear: both;
+  display: table;
+  margin-left:10%;
+  margin-right:;
+  
+}
