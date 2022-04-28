@@ -1,0 +1,14 @@
+body {
+	background-color: #336378;
+  text-align:center;
+}
+
+h2 {
+  border:2px dotted #334476; 
+  padding: 10px; 
+  margin: 10px 100px; 
+  color:rgb(92, 165, 173);
+    color: #DAC889;
+  font-size: 35px;
+  text-shadow: 2px 2px 5px;
+}
